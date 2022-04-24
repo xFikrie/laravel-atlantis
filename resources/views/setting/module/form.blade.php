@@ -8,6 +8,7 @@
                 </button>
             </div>
             <div class="modal-body">
+                <p class="text-danger text-center">--- PASTIKAN ROUTE/WEB SUDAH ADA ---</p>
                 <div class="alert alert-warning d-none" id="errorMessage">
                 </div>
                 <form id="myForm">

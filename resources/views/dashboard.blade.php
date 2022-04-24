@@ -9,7 +9,7 @@
                 <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row">
                     <div>
                         <h2 class="text-white pb-2 fw-bold">Dashboard</h2>
-                        <h5 class="text-white op-7 mb-2">Data GTKPAUD TV</h5>
+                        <h5 class="text-white op-7 mb-2">Data Laravel</h5>
                     </div>
                 </div>
             </div>
@@ -27,8 +27,8 @@
                                 </div>
                                 <div class="col-7 col-stats">
                                     <div class="numbers">
-                                        <p class="card-category">Berita</p>
-                                        <h4 class="card-title">{{ $berita }}</h4>
+                                        <p class="card-category">Konten 1</p>
+                                        <h4 class="card-title">1</h4>
                                     </div>
                                 </div>
                             </div>
@@ -46,8 +46,8 @@
                                 </div>
                                 <div class="col-7 col-stats">
                                     <div class="numbers">
-                                        <p class="card-category">GTKPAUD TV</p>
-                                        <h4 class="card-title">{{ $gtkpaudtv }}</h4>
+                                        <p class="card-category">Konten 2</p>
+                                        <h4 class="card-title">2</h4>
                                     </div>
                                 </div>
                             </div>
@@ -65,8 +65,8 @@
                                 </div>
                                 <div class="col-7 col-stats">
                                     <div class="numbers">
-                                        <p class="card-category">Majalah & Buletin</p>
-                                        <h4 class="card-title">{{ $majtin }}</h4>
+                                        <p class="card-category">Konten 3</p>
+                                        <h4 class="card-title">3</h4>
                                     </div>
                                 </div>
                             </div>
@@ -84,8 +84,8 @@
                                 </div>
                                 <div class="col-7 col-stats">
                                     <div class="numbers">
-                                        <p class="card-category">Pencegahan Stunting</p>
-                                        <h4 class="card-title">{{ $stunting }}</h4>
+                                        <p class="card-category">Konten 4</p>
+                                        <h4 class="card-title">4</h4>
                                     </div>
                                 </div>
                             </div>

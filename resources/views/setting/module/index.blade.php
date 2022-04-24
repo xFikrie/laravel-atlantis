@@ -70,7 +70,7 @@
                         data: "icon",
                         name: "icon",
                         render: function(data, type, row, meta) {
-                            return `<i class="`+data+`"></i>`;
+                            return `<i class="`+data+' fa-2x'+`"></i>`;
                         }
                     }, {
                         data: "url",

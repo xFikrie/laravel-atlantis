@@ -61,7 +61,7 @@
             <div class="logo-header" data-background-color="blue">
 
                 <a href="{{ route('dashboard') }}" class="logo d-flex align-items-center">
-                    <img src="{{ asset('img/logo.png') }}" alt="navbar brand" class="navbar-brand" width="50px"
+                    <img src="{{ asset('img/logo.png') }}" alt="navbar brand" class="navbar-brand" width="40px" height="40px"
                         height="50px">
                     <p class="logo-title">GTK PAUD</p>
                 </a>

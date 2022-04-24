@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Module;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Validator;
 use yajra\Datatables\Datatables;
 
@@ -47,6 +48,8 @@ class ModuleController extends Controller
                 'parent'    => $request->parent,
             ]
         );
+
+        Artisan::call('make:model -mc', ['name' => $request->module]);
 
         return response()->json(['Module saved successfully.']);
     }

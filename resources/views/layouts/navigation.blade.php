@@ -17,16 +17,16 @@
             </div>
             <ul class="nav nav-primary">
                 @php
-                    $module = App\Models\Module::all();
+                    $module = App\Models\Module::orderBy('urutan')->get();
                 @endphp
 
                 @foreach ($module as $item)
                     @canany([Str::lower($item->module) . '_read', 'admin_access'])
                         @if (Str::contains($item->url, '#'))
-                            <li class="nav-item {{ request()->segment(1) == 'master' ? 'active' : '' }}">
+                            <li class="nav-item {{ request()->segment(1) == Str::lower($item->module) ? 'active' : '' }}">
                                 <a data-toggle="collapse" href="{{ $item->url }}">
                                     <i class="{{ $item->icon }}"></i>
-                                    <p>Master</p>
+                                    <p>{{ Str::after($item->url, '#') }}</p>
                                     <span class="caret"></span>
                                 </a>
                                 @php
