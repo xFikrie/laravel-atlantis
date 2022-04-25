@@ -1,16 +1,15 @@
 **TEMPLATE LARAVEL ATLANTIS**
 
-> Cara install
-> Jalan command diterminal
+> Run this command to your terminal
 
  1. composer install
  2. npm install
  3. rename file .env.example -> .env
- 4. buat database sesuai dengan yang ada difile .env
+ 4. create database and make sure name same in file .env
  5. php artisan migrate:fresh --seed
  6. php artisan key:generate
 
-> Akses login default
+> Access default login
 
  - email: admin@admin.com
  - password: password
