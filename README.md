@@ -8,7 +8,7 @@
  3. rename file .env.example -> .env
  4. buat database sesuai dengan yang ada difile .env
  5. php artisan migrate:fresh --seed
- 6. php key:generate
+ 6. php artisan key:generate
 
 > Akses login default
 
