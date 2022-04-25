@@ -33,5 +33,12 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('password'),
             'role_id' => '1'
         ]);
+        DB::table('modules')->insert([
+            'module' => 'Dashboard',
+            'icon' => 'fas fa-home',
+            'url' => 'dashboard',
+            'parent' => 0,
+            'urutan' => 1
+        ]);
     }
 }
