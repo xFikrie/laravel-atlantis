@@ -54,11 +54,9 @@
                     </div>
                     <div class="form-row">
                         <div class="form-group col-md">
-                            <label for="status">Status</label>
-                            <select name="status" id="status" class="form-control">
-                                <option value="1">Active</option>
-                                <option value="0">Non Active</option>
-                            </select>
+                            <label for="command">Command Artisan</label>
+                            <input type="text" class="form-control" id="command" name="command"
+                                placeholder="Masukkan Command Artisan">
                         </div>
                     </div>
             </div>

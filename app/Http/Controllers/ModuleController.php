@@ -49,7 +49,7 @@ class ModuleController extends Controller
             ]
         );
 
-        Artisan::call('make:model -mc', ['name' => $request->module]);
+        Artisan::call($request->command);
 
         return response()->json(['Module saved successfully.']);
     }
