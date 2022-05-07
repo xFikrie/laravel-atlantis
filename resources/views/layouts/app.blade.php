@@ -61,8 +61,8 @@
             <div class="logo-header" data-background-color="blue">
 
                 <a href="{{ route('dashboard') }}" class="logo d-flex align-items-center">
-                    <img src="{{ asset('img/logo.png') }}" alt="navbar brand" class="navbar-brand" width="40px" height="40px"
-                        height="50px">
+                    <img src="{{ asset('img/logo.png') }}" alt="navbar brand" class="navbar-brand" width="40px"
+                        height="40px" height="50px">
                     <p class="logo-title">GTK PAUD</p>
                 </a>
                 <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse"
@@ -114,7 +114,8 @@
                                             <a class="dropdown-item" href="{{ route('logout') }}"
                                                 onclick="event.preventDefault(); this.closest('form').submit();"><i
                                                     class="
-                                                fas fa-sign-out-alt"></i>&nbsp; Logout</a>
+                                                fas fa-sign-out-alt"></i>&nbsp;
+                                                Logout</a>
                                         </form>
                                     </li>
                                 </div>
@@ -137,15 +138,15 @@
                     <nav class="pull-left">
                         <ul class="nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="https://bangsawancyberindo.co.id/">
-                                    Bangsawan Cyberindo
+                                <a class="nav-link" href="https://fikriex.com/">
+                                    Fikriex
                                 </a>
                             </li>
                         </ul>
                     </nav>
                     <div class="copyright ml-auto">
                         © 2022, made with <i class="fa fa-heart heart text-danger"></i> by <a
-                            href="https://bangsawancyberindo.co.id/">Bangsawan Cyberindo</a>
+                            href="https://fikriex.com/">Fikriex</a>
                     </div>
                 </div>
             </footer>
